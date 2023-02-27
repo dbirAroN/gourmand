@@ -1,0 +1,276 @@
+/* Google font open sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/* font-family: 'Open Sans', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5em;
+    background: url(/JOYEUX/ANSB/Guillard.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.container {
+    /* border: 2px solid red;*/
+    max-width: 1140px;
+    height: 100%;
+    margin: auto;
+    color: yellow;
+    padding-top: 100px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.container::before {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+}
+
+header {
+    margin-bottom: 100px;
+    text-align: center;
+
+}
+
+header h1 {
+    font-weight: 500;
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+header p {
+    display: block;
+    /*width: 80%;*/
+    margin: auto;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    /*border: 2px solid red;*/
+    flex: 0 0 50%;
+    max-width: 50%;
+    text-align: start;
+}
+
+.col-2 {
+    /*border: 2px solid red;*/
+    flex: 0 0 50%;
+    max-width: 50%;
+    /*text-align: start;*/
+}
+
+.content-inner {
+    width: 100%;
+}
+
+.col-1 .info {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.col-1 .icon {
+    width: 50px;
+    height: 45px;
+    background: #fff;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.info h3 {
+    color: #00cccc;
+}
+
+.info p {
+    font-size: 18px;
+}
+
+.info span p.gmail a {
+    text-decoration: none;
+    color: yellow;
+}
+
+form {
+    width: 80%;
+    height: auto;
+    background: #fff;
+    border-radius: 50px;
+    color: #282828;
+    text-align: start;
+    padding: 35px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+form h2 {
+    font-weight: 500;
+    font-size: 1.7em;
+    margin-bottom: 20px;
+}
+
+.text-class {
+    color: blue;
+    font-size: auto;
+    text-align: center;
+}
+
+form input {
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #282828;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+}
+
+form textarea {
+    border: none;
+    border-bottom: 2px solid #282828;
+    width: 100%;
+    padding: 8px 0;
+    resize: none;
+    font-size: 18px;
+    margin-bottom: 35px;
+    outline: none;
+}
+
+form button {
+    background: #00cccc;
+    color: #fff;
+    padding: 12px 30px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: green;
+}
+
+@media(max-width: 768px) {
+    .container {
+        padding-top: 50px;
+    }
+
+    header {
+        margin-bottom: 50px;
+    }
+
+    .content {
+        flex-direction: column-reverse;
+    }
+
+    .col-1 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .col-2 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .content-inner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .col-1 .info {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    form {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 575px) {
+    .container {
+        padding-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    form h2 {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+
+    form input {
+        padding: 3px 0;
+        border-bottom: 1px solid #282828;
+        font-size: 16px;
+        letter-spacing: 0px;
+        margin-bottom: 20px;
+    }
+
+    form textarea {
+        padding: 3px 0;
+        border-bottom: 1px solid #282828;
+        font-size: 16px;
+        letter-spacing: 0px;
+        margin-bottom: 20px;
+    }
+
+    form button {
+        padding: 8px 16px;
+        font-size: 16px;
+    }
+
+    .col-1 .info {
+        display: flex;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .col-1 .icon {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+        margin-right: 16px;
+    }
+
+    .info p {
+        font-size: 16px;
+    }
+
+
+}

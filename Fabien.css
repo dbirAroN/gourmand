@@ -1,0 +1,219 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: powderblue;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-weight: small;
+}
+
+.btn-primary {
+    color: #fff;
+    background: #16a883;
+}
+
+.btn-primary:hover {
+    background: #117964;
+    transition: background 0.3s ease-in-out;
+}
+
+.navbar input[type="checkbox"],
+.navbar .hamburger-lines {
+    display: none;
+}
+
+.navbar {
+    box-shadow: 0px 5px 10px 0px #aaa;
+    position: fixed;
+    width: 100%;
+    top: 12px;
+    background: tomato;
+    color: #000;
+    opacity: 0.85;
+    height: 50px;
+    z-index: 12;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+}
+
+.menu-items {
+    order: 2;
+    display: flex;
+}
+
+.menu-items li {
+    list-style: none;
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.menu-items a {
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu-items a:hover {
+    color: yellow;
+    transition: color 0.3s ease-in-out;
+}
+
+#food h2 {
+    text-align: center;
+    color: blue;
+}
+
+.img-content a {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.logo {
+    order: 1;
+    font-size: 2.3rem;
+    margin-bottom: 0.5rem;
+    color: #008000;
+    cursor: default;
+}
+
+.logo:hover {
+    order: 1;
+    font-size: 2.3rem;
+    margin-bottom: 0.5rem;
+    color: black;
+}
+
+/*.showcase-area {
+    margin: 55px auto;
+    height: 55vh;
+    width: 100%;
+    background: linear-gradient(rgba(240, 240, 240, 0.144) rgba(255, 255, 255, 0.336));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: right bottom, left top;
+                background-repeat: no-repeat, repeat;
+    padding: 15px;
+    background:
+        url(Guillard.jpg) right top no-repeat,
+        url(Road.jpg) left bottom no-repeat;
+    padding: 15px;
+    border: 50px 30px solid transparent;
+
+    border-radius: 25px 25px;
+
+    border-image: url(Guillard.jpg), url(Road.jpg) 10 stretch;
+
+}*/
+
+#garth {
+    margin: 50px auto;
+    padding: auto;
+    height: 80vh;
+    width: 100%;
+    right: 25px;
+    background: url(/JOYEUX/ANSB/G-J-F.jpg);
+    background-attachment: fixed;
+    background-clip: padding-box;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px 25px;
+}
+
+#garth img {
+    margin-right: 12px;
+    right: 12px;
+    border-radius: 50%;
+    border: 15px solid transparent;
+}
+
+#garth h1 {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: black, transparent;
+}
+
+/*
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.image{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #252d5d;
+}
+.image img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 10px solid #fff
+}
+*/
+
+.showcase-container {
+    display: flex;
+    text-decoration: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 1.6rem;
+}
+
+footer p {
+    color: orangered;
+
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: orchid;
+    background-position: center;
+    width: 100%;
+    height: 200%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.movie {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 15% auto;
+}
+
+video {
+    width: 250px;
+    height: 200px;
+
+}
+
+video::cue {
+    font-size: 1rem;
+}

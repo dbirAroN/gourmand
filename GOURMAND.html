@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="GOURMAND.css">
+    <title>GOURMAND CAFE</title>
+
+
+
+</head>
+
+<body>
+    <nav onclick="getBaseUrl()">
+        <h1 id="Demo" class="bogo">FIV<span>AN</span><img src="/JOYEUX/ANSB/FACEBURUNDI.jpg
+            " width="35px" height="35px"></h1>
+        <ul>
+            <li><a class="active" href="#">
+                    Home
+                </a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Video.html">Video</a></li>
+            <li><a href="#">Public</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="card">
+            <div class="imgBx">
+                <img src="ANSB/drapeauBURUNDI.jpg" width="260px" height="260px">
+            </div>
+            <div class="content">
+                <h2>BURUNDI</h2>
+                <p>Bwacu</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgBx">
+                <img src="ANSB/Guillard.jpg" width="260px" height="260px">
+            </div>
+            <div class="content">
+                <h2>Guillard</h2>
+                <p>FIVAN</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgBx">
+                <img src="ANSB/LacTanganyika.jpg" width="260px" height="260px">
+            </div>
+            <div class="content">
+                <h2>BURUNDI</h2>
+                <p>LAKE TANGANYIKA</p>
+            </div>
+        </div>
+    </div>
+    <p style="color:white; text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolor
+        facilis natus ipsam
+        soluta dicta hic omnis
+        sint, <br /> doloremque id quas obcaecati. Cumque assumenda neque amet, quos nihil vel.</p>
+    <div class="contain">
+        <h1>Sto<span style="color
+        :greenyellow">ry</span></h1>
+        <img src="/JOYEUX/ANSB/FAB.jpg" width="50px" height="50px">
+        <p class="circle">start with us about
+            <span style="color:orangered; background-color:white ; font-size: 20px;">D.E Fabien
+                Hamissi</span>
+        </p>
+        <p>Click you down</p>
+        <button onclick="changeColor()">Learn Together the sharings</button>
+    </div>
+    <aside style="justify-content: center; display: flex; align-items: center;">
+        <div id="test" class="contain-right">
+            <h1>Sto<span style="color
+            :greenyellow">ry</span></h1>
+            <img src="/JOYEUX/ANSB/Israel-Mungumwema.jpg" width="50px" height="50px">
+            <p class="circle-right">start with us about
+                <span style="color:orangered; background-color:white ; font-size: 20px;">Pr. Israel Mungumwema</span>
+            </p>
+            <p>Click you down</p>
+            <button onclick="doSomething()">Learn Together the sharings</button>
+        </div>
+    </aside>
+    <aside style="justify-content: right; display: flex; align-items: right;">
+        <div class="contain-right">
+            <h1>Sto<span style="color
+                :greenyellow">ry</span></h1>
+            <img src="/JOYEUX/ANSB/SIDOCLAIR.jpg" width="50px" height="50px">
+            <p class="circle-right">start with us about
+                <span style="color:orangered; background-color:white ; font-size: 20px;">A.F Sidonie Masengo</span>
+            </p>
+            <p>Click you down </p>
+            <button>Learn Together the sharings</button>
+        </div>
+    </aside>
+    <script>
+        alert('Hello Welcome');
+        function getBaseUrl() {
+            document.getElementById("Demo").innerHTML = window.location.origin;
+        }
+        function changeColor() {
+            document.querySelector('.contain').style.color = 'yellow';
+            //if (condition) {
+            //    elseif
+            //} else {
+
+            // } {
+            //    console.log('alert');
+            //}
+        }
+        function doSomething() {
+            document.getElementById("test").innerHTML = "Goodbye";
+            document.querySelector('.contain-right').style.background = '#15f48f';
+        }
+
+    </script>
+</body>
+
+</html

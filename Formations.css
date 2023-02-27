@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    top: 25px;
+    background-image: url(OFFICIAL.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*background-repeat: no-repeat;*/
+}
+
+/*
+
+.primary {
+    background: rgb(0, 100, 0);
+    text-align: center;
+
+}
+
+.primary ul {
+    display: inline-flex;
+    list-style: none;
+    color: white;
+
+}
+
+.primary ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.primary ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.active .primary ul li:hover {
+    background: #000000;
+    border-radius: 8px;
+}
+
+.primary .fa {
+    margin-right: 8px;
+}
+
+.active2 {
+    display: none;
+}
+
+.active .primary ul li:hover .active2 {
+    display: block;
+    position: absolute;
+    background: rgb(0, 100, 0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.active .primary ul li:hover .active2 ul {
+    display: block;
+    margin: 10px;
+}
+
+.active .primary ul li:hover .active2 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1 solid #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.active .primary ul li:hover .active2 ul li:last-child {
+    border-bottom: none;
+}
+
+.active .primary ul li:hover .active2 ul li a:hover {
+    color: yellow;
+}
+
+.fa-angle-right {
+    float: right;
+}
+
+.active3 {
+    display: none;
+}
+
+.hover-me:hover .active3 {
+    position: absolute;
+    display: block;
+    margin-top: -14px;
+    margin-left: 140px;
+    background: rgb(0, 100, 0);
+}
+*/
+/*************************************************/
+@import url('https://fonts.googleapis.com/css2?family=sans-serif:wght@300;400;500;600;700;800&display=swap');
+
+.container {
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.container .card {
+    position: relative;
+    max-width: 400px;
+    height: 215px;
+    background: #fff;
+    border-radius: 5px;
+    margin: 30px 15px;
+    padding: 30px 50px;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+    transition: 0.5s ease-in-out;
+}
+
+.container .card:hover {
+    height: 320px;
+}
+
+.container .card .imgBx {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 202px rgba(0, 0, 0, 0.2);
+}
+
+.container .card .imgBx img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.cintainer .card .content {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.container .card:hover .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}

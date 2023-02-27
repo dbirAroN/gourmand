@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: url(/JOYEUX/ANSB/ortestimo.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    order: 2;
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin-left: 1.2rem;
+    /*margin-bottom: 0.5rem;*/
+    padding-left: 150px;
+    margin-top: 15px auto;
+
+    font-size: 1.5rem;
+    display: inline-block;
+
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+
+}
+
+.navbar a:hover {
+    color: yellow;
+    cursor: default;
+}
+
+.logo1 {
+    order: 1;
+    font-size: 2.3rem;
+    margin-bottom: 0.5rem;
+    color: #008000;
+    cursor: default;
+}
+
+.logo1 span {
+    color: blue;
+    order: 2;
+    font-size: 2.3rem;
+    margin-bottom: 0.5rem;
+    cursor: default;
+}
+
+section p {
+    margin-top: 50px;
+    padding: auto;
+
+}
+
+section h2 {
+    color: orange;
+    text-align: center;
+}
